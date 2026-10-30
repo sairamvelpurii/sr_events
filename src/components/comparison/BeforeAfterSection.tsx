@@ -75,7 +75,7 @@ export const BeforeAfterSection: React.FC = () => {
             {/* After Image (Background) */}
             <img
               src={EVENT_IMAGES.transformation.after}
-              alt="Celebration Setup After SR Events Styling"
+              alt="Celebration Setup After SriRam Events Styling"
               className="absolute inset-0 w-full h-full object-cover"
               draggable={false}
             />
@@ -90,7 +90,7 @@ export const BeforeAfterSection: React.FC = () => {
             >
               <img
                 src={EVENT_IMAGES.transformation.before}
-                alt="Bare Venue Space Before SR Events Setup"
+                alt="Bare Venue Space Before SriRam Events Setup"
                 className="absolute inset-0 h-full object-cover max-w-none"
                 style={{ width: containerWidth > 0 ? `${containerWidth}px` : '100%' }}
                 draggable={false}

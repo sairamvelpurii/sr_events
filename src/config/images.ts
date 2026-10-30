@@ -1,7 +1,7 @@
 /**
- * Centralized Image Configuration for SR Events.
+ * Centralized Image Configuration for SriRam Events.
  * 
- * - Hero: Ram (Founder & Lead Event Organizer of SR Events, Addanki)
+ * - Hero: Ram (Founder & Lead Event Organizer of SriRam Events, Addanki)
  * - Categories: Dedicated visuals for each of the 6 service types
  * - Featured: Unique signature celebration highlights (no overlap with Services)
  * - Transformation: Real Addanki convention hall before/after transformation
@@ -23,7 +23,7 @@ export const EVENT_IMAGES = {
   // Hero high-impact photo: Ram, the lead organizer
   hero: {
     url: '/images/ram_organiser.jpg',
-    alt: 'Ram - Lead Event Organizer & Founder of SR Events Addanki',
+    alt: 'Ram - Lead Event Organizer & Founder of SriRam Events Addanki',
     label: 'MEET RAM · LEAD ORGANIZER',
   },
   
@@ -31,32 +31,32 @@ export const EVENT_IMAGES = {
   categories: {
     wedding: {
       url: '/images/events/sr_event_07.jpg',
-      alt: 'Grand 4-Pillar Mandap with Wisteria Flower Ceiling and Peach Drapes by SR Events',
+      alt: 'Grand 4-Pillar Mandap with Wisteria Flower Ceiling and Peach Drapes by SriRam Events',
       title: 'Grand Weddings & Mandaps',
     },
     engagement: {
       url: '/images/events/sr_event_02.jpg',
-      alt: 'Lush Foliage Backdrop with Circular Floral Arch and Royal Golden Couch for Engagement by SR Events',
+      alt: 'Lush Foliage Backdrop with Circular Floral Arch and Royal Golden Couch for Engagement by SriRam Events',
       title: 'Engagements & Ring Ceremonies',
     },
     birthday: {
       url: '/images/events/sr_event_16.jpg',
-      alt: 'Festive Yellow and Green Draped Celebration Stage with Floral Chandelier by SR Events',
+      alt: 'Festive Yellow and Green Draped Celebration Stage with Floral Chandelier by SriRam Events',
       title: 'Birthday Celebrations & Haldi',
     },
     reception: {
       url: '/images/events/sr_event_26.jpg',
-      alt: 'Modern Royal Purple and Violet Reception Stage with Crystal Chandeliers by SR Events',
+      alt: 'Modern Royal Purple and Violet Reception Stage with Crystal Chandeliers by SriRam Events',
       title: 'Receptions & Evening Galas',
     },
     corporate: {
       url: '/images/events/sr_event_03.jpg',
-      alt: 'Grand AC Convention Hall Stage with Drapes, Chandelier, and Floral Backdrop by SR Events',
+      alt: 'Grand AC Convention Hall Stage with Drapes, Chandelier, and Floral Backdrop by SriRam Events',
       title: 'Corporate Events & Conclaves',
     },
     private: {
       url: '/images/events/sr_event_01.jpg',
-      alt: 'Traditional Golden Lotus Stage Backdrop with Brass Pooja Lamps and Bridal Seer Trays by SR Events',
+      alt: 'Traditional Golden Lotus Stage Backdrop with Brass Pooja Lamps and Bridal Seer Trays by SriRam Events',
       title: 'Private & Special Events',
     },
   },
@@ -65,22 +65,22 @@ export const EVENT_IMAGES = {
   featured: {
     wedding: {
       url: '/images/events/sr_event_19.jpg',
-      alt: 'Colossal Multi-Tiered Royal Temple Gopuram Outdoor Wedding Mandap in Addanki by SR Events',
+      alt: 'Colossal Multi-Tiered Royal Temple Gopuram Outdoor Wedding Mandap in Addanki by SriRam Events',
       title: 'A Grand Royal Mandap Celebration',
     },
     engagement: {
       url: '/images/events/sr_event_13.jpg',
-      alt: 'Peach Draped Banquet Hall Stage with Red Rose Wall by SR Events',
+      alt: 'Peach Draped Banquet Hall Stage with Red Rose Wall by SriRam Events',
       title: 'Romantic Evening Ring Ceremony',
     },
     reception: {
       url: '/images/events/sr_event_18.jpg',
-      alt: 'Contemporary Peacock Teal Velvet Reception Stage with Illuminated Fan Petals by SR Events',
+      alt: 'Contemporary Peacock Teal Velvet Reception Stage with Illuminated Fan Petals by SriRam Events',
       title: 'Illuminated Chandelier Banquet Gala',
     },
     corporate: {
       url: '/images/events/sr_event_14.jpg',
-      alt: 'Red Rose Rainbow Arch Stage with Crystal Chandeliers by SR Events',
+      alt: 'Red Rose Rainbow Arch Stage with Crystal Chandeliers by SriRam Events',
       title: 'Annual Corporate Leadership Conclave',
     },
   },

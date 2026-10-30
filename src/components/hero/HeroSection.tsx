@@ -21,7 +21,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenWizard }) => {
             {/* Eyebrow */}
             <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-cream-100 border border-cream-200 text-charcoal-700 text-xs font-medium tracking-widest uppercase">
               <Sparkles className="w-3.5 h-3.5 text-gold-dark" />
-              <span>SR EVENTS · ADDANKI & SURROUNDING AREAS</span>
+              <span>SRIRAM EVENTS · ADDANKI & SURROUNDING AREAS</span>
             </div>
 
             {/* Editorial Heading */}
@@ -31,9 +31,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenWizard }) => {
             </h1>
 
             {/* Editorial Description */}
-            <p className="text-sm sm:text-base lg:text-lg text-charcoal-500 font-normal leading-relaxed max-w-2xl">
-              From intimate celebrations to grand occasions, SR Events brings together thoughtful
-              planning, creative presentation, and reliable execution to make every moment seamless and special.
+            <p className="text-sm sm:text-base lg:text-lg text-charcoal-600 font-normal leading-relaxed max-w-2xl text-pretty">
+              <span className="font-medium text-charcoal-800">Mana Telugu sampradayam</span> meets modern elegance. SriRam Events brings life to your wedding, engagement, and milestone celebrations with stunning decor and effortless management in Addanki.
             </p>
 
             {/* Action Buttons */}
@@ -112,8 +111,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenWizard }) => {
                       <p className="text-[11px] uppercase tracking-wider text-gold-dark font-semibold">
                         Lead Event Organizer
                       </p>
-                      <p className="font-display font-semibold text-charcoal-900 text-base">
-                        Ram · SR Events
+                      <p className="font-display font-semibold text-charcoal-900 text-sm sm:text-base truncate">
+                        Ram · SriRam Events
                       </p>
                     </div>
                     <span className="text-xs bg-charcoal-900 text-cream-50 font-medium px-3 py-1 rounded-full shadow-sm">

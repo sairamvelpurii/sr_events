@@ -26,7 +26,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
                 Operating Across Addanki & Surrounding Regions
               </h3>
               <p className="text-sm sm:text-base text-charcoal-500 leading-relaxed max-w-2xl">
-                SR Events operates throughout Addanki and nearby surrounding areas in Andhra Pradesh.
+                SriRam Events operates throughout Addanki and nearby surrounding areas in Andhra Pradesh.
                 Whether you are hosting a wedding at a local convention hall, celebrating at home, or
                 organizing a corporate gathering, our team coordinates the transport, styling, and
                 setup directly on-site.

@@ -64,14 +64,14 @@ const TELUGU_EVENT_QUOTES: TeluguQuote[] = [
     tag: 'Grand Scale',
   },
   {
-    id: 'proverb',
-    movie: 'Telugu Tradition & Tollywood Wisdom',
-    context: 'The Wedding Responsibility',
+    id: 'hospitality',
+    movie: 'Telugu Samskruthi & Grandeur',
+    context: 'Warm Hospitality & Rich Atmosphere',
     quote:
-      'Pelli chesi chudu, illu katti chudu antaru... SR Events thodunte aa pelli cheyadam entho aanandham, antha kanna pedda santrupti!',
+      'Intiki vacchina athidhulaku manchi mariyadha, kalla mundu grand mandapam unte... aa roju mana kutumbaniki oka charithra la nilichipothundi!',
     englishMeaning:
-      'They say hosting a wedding is life’s greatest milestone — with SR Events standing by your side in Addanki, it becomes pure joy and complete peace of mind.',
-    tag: 'Peace of Mind',
+      'When guests receive heartfelt traditional hospitality and behold a breathtaking mandap setup, that celebration becomes an unforgettable golden milestone in family history.',
+    tag: 'Royal Hospitality',
   },
 ];
 
@@ -109,7 +109,7 @@ export const IntroSection: React.FC = () => {
           </h2>
 
           <p className="text-base sm:text-lg text-charcoal-600 leading-relaxed font-normal pt-1">
-            SR Events helps families and organizations across Addanki and nearby areas plan and celebrate with authentic Telugu tradition, modern elegance, and dependable on-ground execution.
+            SriRam Events helps families and organizations across Addanki and nearby areas plan and celebrate with authentic Telugu tradition, modern elegance, and dependable on-ground execution.
           </p>
         </div>
 
@@ -251,7 +251,7 @@ export const IntroSection: React.FC = () => {
                   {/* WhatsApp Pre-fill with Quote */}
                   <a
                     href={buildWhatsAppLink(
-                      `Hi Ram, I visited SR Events website and loved this quote: "${activeQuote.quote}" from ${activeQuote.movie}. I'm planning a celebration in Addanki and would love to plan it with this festive spirit!`
+                      `Hi Ram, I visited SriRam Events website and loved this quote: "${activeQuote.quote}" from ${activeQuote.movie}. I'm planning a celebration in Addanki and would love to plan it with this festive spirit!`
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -268,7 +268,7 @@ export const IntroSection: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center justify-between text-xs text-charcoal-500 pt-2 gap-2">
               <span className="flex items-center space-x-1.5">
                 <span className="w-2 h-2 rounded-full bg-gold inline-block" />
-                <span>SR Events brings your family traditions to life with authentic Telugu hospitality in Addanki.</span>
+                <span>SriRam Events brings your family traditions to life with authentic Telugu hospitality in Addanki.</span>
               </span>
               <a
                 href="#events"

@@ -53,15 +53,15 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenWizard, onOpenInspiration 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Brand Logo */}
-          <a href="#hero" className="flex items-center space-x-2.5 group">
-            <div className="w-9 h-9 rounded-full bg-charcoal-900 flex items-center justify-center text-gold font-display font-semibold text-lg tracking-wider transition-transform duration-300 group-hover:scale-105">
+          <a href="#hero" className="flex items-center space-x-2 sm:space-x-2.5 group min-w-0">
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-charcoal-900 flex items-center justify-center text-gold font-display font-semibold text-base sm:text-lg tracking-wider transition-transform duration-300 group-hover:scale-105 flex-shrink-0">
               SR
             </div>
-            <div className="flex flex-col">
-              <span className="font-display font-bold text-xl sm:text-2xl tracking-wide text-charcoal-900 leading-tight">
-                SR Events
+            <div className="flex flex-col min-w-0">
+              <span className="font-display font-bold text-lg sm:text-2xl tracking-tight sm:tracking-wide text-charcoal-900 leading-tight truncate">
+                SriRam Events
               </span>
-              <span className="text-[10px] uppercase tracking-widest text-charcoal-500 font-medium">
+              <span className="text-[9px] sm:text-[10px] uppercase tracking-wider text-charcoal-500 font-medium truncate">
                 Addanki · Events & Decor
               </span>
             </div>

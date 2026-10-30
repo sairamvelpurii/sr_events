@@ -1,7 +1,7 @@
 import { AvailabilityStatus } from '../types';
 
 /**
- * Static Event Availability Service for SR Events.
+ * Static Event Availability Service for SriRam Events.
  * 
  * Fully static & reliable: requires no external Google Sheets connection.
  * Dates can be marked as 'BOOKED' or 'AVAILABLE' right here in configuration.

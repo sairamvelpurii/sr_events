@@ -22,7 +22,7 @@ export const FeaturedEvents: React.FC<FeaturedEventsProps> = ({
       title: 'Colossal Royal Temple Mandap',
       description: 'Expansive multi-tiered temple gopuram outdoor mandap, red carpet ceremonial walkway, and high-truss illumination.',
       image: EVENT_IMAGES.featured.wedding.url,
-      alt: 'Colossal outdoor royal wedding mandap by SR Events',
+      alt: 'Colossal outdoor royal wedding mandap by SriRam Events',
     },
     {
       id: 'feat-02',
@@ -38,7 +38,7 @@ export const FeaturedEvents: React.FC<FeaturedEventsProps> = ({
       title: 'Peacock Teal Velvet Luxury Stage',
       description: 'Contemporary teal velvet backdrop with illuminated acrylic fan petals and royal golden couch.',
       image: EVENT_IMAGES.featured.reception.url,
-      alt: 'Evening gala reception stage by SR Events',
+      alt: 'Evening gala reception stage by SriRam Events',
     },
     {
       id: 'feat-04',
@@ -46,7 +46,7 @@ export const FeaturedEvents: React.FC<FeaturedEventsProps> = ({
       title: 'Red Rose Rainbow Arch Stage',
       description: 'Dramatic multi-tiered red floral arches with crystal chandeliers and wisteria canopy for grand celebrations.',
       image: EVENT_IMAGES.featured.corporate.url,
-      alt: 'Corporate event execution by SR Events',
+      alt: 'Corporate event execution by SriRam Events',
     },
   ];
 

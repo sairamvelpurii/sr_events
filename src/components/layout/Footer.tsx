@@ -24,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({
                 SR
               </div>
               <span className="font-display font-bold text-xl tracking-wide text-charcoal-900">
-                SR Events
+                SriRam Events
               </span>
             </div>
             <p className="text-sm text-charcoal-500 leading-relaxed max-w-sm">
@@ -49,7 +49,7 @@ export const Footer: React.FC<FooterProps> = ({
               </li>
               <li>
                 <a href="#about" className="hover:text-charcoal-900 transition-colors">
-                  About SR Events
+                  About SriRam Events
                 </a>
               </li>
               <li>
@@ -153,7 +153,7 @@ export const Footer: React.FC<FooterProps> = ({
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-charcoal-500 space-y-4 sm:space-y-0">
-          <p>© 2026 SR Events. All rights reserved.</p>
+          <p>© 2026 SriRam Events. All rights reserved.</p>
           <div className="flex items-center space-x-6">
             <span>Addanki & Nearby Areas · Andhra Pradesh</span>
             <span className="hidden md:inline">·</span>

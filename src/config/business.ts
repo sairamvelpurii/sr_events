@@ -1,5 +1,5 @@
 export const BUSINESS_CONFIG = {
-  name: 'SR Events',
+  name: 'SriRam Events',
   tagline: 'Moments Worth Remembering',
   contactPerson: 'Ram',
   phone: '9494954646',
@@ -35,7 +35,7 @@ export const BUSINESS_CONFIG = {
  * Builds a contextual WhatsApp link to Ram with a cleanly formatted, encoded message.
  */
 export function buildWhatsAppLink(customMessage?: string): string {
-  const defaultText = `Hi Ram, I found SR Events online and would like to enquire about my event.`;
+  const defaultText = `Hi Ram, I found SriRam Events online and would like to enquire about my event.`;
   const text = customMessage && customMessage.trim() ? customMessage.trim() : defaultText;
   return `${BUSINESS_CONFIG.whatsappBaseUrl}?text=${encodeURIComponent(text)}`;
 }
@@ -50,7 +50,7 @@ export function buildContextualWhatsAppMessage(details: {
   guestCount?: string;
   savedInspirations?: string[];
 }): string {
-  const parts: string[] = ['Hi Ram, I am interested in discussing an event with SR Events.'];
+  const parts: string[] = ['Hi Ram, I am interested in discussing an event with SriRam Events.'];
 
   if (details.eventType) {
     parts.push(`Event Type: ${details.eventType}`);

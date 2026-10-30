@@ -1,12 +1,12 @@
-# SR Events — Addanki Event Management Platform
+# SriRam Events — Addanki Event Management Platform
 
-A production-quality, mobile-first, and elegant event-management website built for **SR Events**, an event planning, coordination, and styling business operated by **Ram** in **Addanki, Andhra Pradesh** and surrounding areas.
+A production-quality, mobile-first, and elegant event-management website built for **SriRam Events**, an event planning, coordination, and styling business operated by **Ram** in **Addanki, Andhra Pradesh** and surrounding areas.
 
 ---
 
 ## 🌟 Business Overview
 
-- **Business Name:** SR Events
+- **Business Name:** SriRam Events
 - **Lead Organizer:** Ram
 - **Location:** Addanki, Andhra Pradesh & surrounding regions
 - **Contact:** +91 9494954646
@@ -97,4 +97,4 @@ npm run preview
 
 ## 📄 License
 
-Private repository for **SR Events**, Addanki. All rights reserved © 2026.
+Private repository for **SriRam Events**, Addanki. All rights reserved © 2026.

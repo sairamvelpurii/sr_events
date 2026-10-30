@@ -7,21 +7,19 @@ import { BUSINESS_CONFIG } from '../config/business';
 export function formatLeadToWhatsAppMessage(lead: Partial<LeadSubmission>): string {
   const lines: string[] = [];
 
-  lines.push(`*New Event Enquiry — SR Events*`);
+  lines.push(`*New Event Enquiry — SriRam Events*`);
   lines.push(`────────────────────────`);
   
   if (lead.name) {
     lines.push(`👤 *Name:* ${lead.name}`);
   }
   if (lead.phone) {
-    lines.push(`📞 *Phone:* ${lead.phone}`);
+    lines.push(`📱 *WhatsApp:* ${lead.phone}`);
   }
   if (lead.email) {
     lines.push(`📧 *Email:* ${lead.email}`);
   }
-  if (lead.contactPreference) {
-    lines.push(`💬 *Preferred Contact:* ${lead.contactPreference}`);
-  }
+  lines.push(`💬 *Shared via:* WhatsApp`);
 
   lines.push(``);
   if (lead.eventType) {
@@ -75,7 +73,7 @@ export function formatLeadToWhatsAppMessage(lead: Partial<LeadSubmission>): stri
   }
 
   lines.push(`────────────────────────`);
-  lines.push(`_Sent directly from SR Events website_`);
+  lines.push(`_Sent directly from SriRam Events website_`);
 
   return lines.join('\n');
 }
@@ -86,7 +84,7 @@ export function formatLeadToWhatsAppMessage(lead: Partial<LeadSubmission>): stri
 export function formatCallbackToWhatsAppMessage(callback: CallbackSubmission): string {
   const lines: string[] = [];
 
-  lines.push(`*Callback Request — SR Events*`);
+  lines.push(`*Callback Request — SriRam Events*`);
   lines.push(`────────────────────────`);
   lines.push(`👤 *Name:* ${callback.name}`);
   lines.push(`📞 *Phone:* ${callback.phone}`);
@@ -98,7 +96,7 @@ export function formatCallbackToWhatsAppMessage(callback: CallbackSubmission): s
   }
 
   lines.push(`────────────────────────`);
-  lines.push(`_Sent directly from SR Events website_`);
+  lines.push(`_Sent directly from SriRam Events website_`);
 
   return lines.join('\n');
 }

@@ -103,7 +103,7 @@ export function App() {
         {/* 4. EVENT SCALE SECTION (Intimate, Signature, Grand) */}
         <EventScaleSection onOpenWizard={handleOpenWizard} />
 
-        {/* 5. WHY SR EVENTS SECTION */}
+        {/* 5. WHY SRIRAM EVENTS SECTION */}
         <WhySRSection />
 
         {/* 6. FEATURED EVENTS SECTION */}

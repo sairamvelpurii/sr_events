@@ -269,7 +269,7 @@ export const EventPlannerWizard: React.FC<EventPlannerWizardProps> = ({
           <div>
             <div className="flex items-center space-x-2">
               <span className="text-[10px] uppercase font-bold tracking-widest text-gold-dark">
-                SR EVENTS · ADDANKI
+                SRIRAM EVENTS · ADDANKI
               </span>
               <span className="text-charcoal-400">·</span>
               <span className="text-xs font-semibold text-charcoal-700">
@@ -342,7 +342,7 @@ export const EventPlannerWizard: React.FC<EventPlannerWizardProps> = ({
                   className="w-full sm:w-auto inline-flex items-center justify-center space-x-2 px-6 py-3.5 rounded-full bg-[#128C7E] hover:bg-[#075E54] text-white text-xs sm:text-sm font-semibold shadow-md transition-all active:scale-95"
                 >
                   <MessageCircle className="w-4 h-4 text-white" />
-                  <span>Open WhatsApp with Ram</span>
+                  <span>Share on WhatsApp with Ram</span>
                 </a>
 
                 <button
@@ -680,14 +680,14 @@ export const EventPlannerWizard: React.FC<EventPlannerWizardProps> = ({
 
                     <div>
                       <label className="block text-xs uppercase tracking-wider font-semibold text-charcoal-700 mb-1">
-                        Phone Number *
+                        WhatsApp Mobile Number *
                       </label>
                       <input
                         type="tel"
                         required
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
-                        placeholder="10-digit mobile number"
+                        placeholder="10-digit WhatsApp number"
                         className="w-full px-4 py-2.5 rounded-lg border border-cream-300 bg-white text-sm focus:outline-none focus:ring-2 focus:ring-gold"
                       />
                     </div>
@@ -705,25 +705,18 @@ export const EventPlannerWizard: React.FC<EventPlannerWizardProps> = ({
                       />
                     </div>
 
-                    <div>
-                      <label className="block text-xs uppercase tracking-wider font-semibold text-charcoal-700 mb-2">
-                        Preferred Contact Method *
-                      </label>
-                      <div className="grid grid-cols-3 gap-2.5">
-                        {(['WhatsApp', 'Phone Call', 'Either'] as const).map((pref) => (
-                          <button
-                            key={pref}
-                            type="button"
-                            onClick={() => setContactPreference(pref)}
-                            className={`p-3 rounded-xl text-center border text-xs font-medium transition-all ${
-                              contactPreference === pref
-                                ? 'bg-charcoal-900 text-cream-50 border-charcoal-900 shadow-sm'
-                                : 'bg-cream-100/60 border-cream-200 text-charcoal-800 hover:bg-cream-200/60'
-                            }`}
-                          >
-                            {pref}
-                          </button>
-                        ))}
+                    {/* WhatsApp Dedicated Sharing Note */}
+                    <div className="p-4 rounded-xl bg-[#25D366]/10 border border-[#25D366]/30 flex items-start space-x-3 mt-1">
+                      <div className="w-8 h-8 rounded-full bg-[#128C7E] flex items-center justify-center text-white flex-shrink-0 mt-0.5 shadow-xs">
+                        <MessageCircle className="w-4 h-4" />
+                      </div>
+                      <div className="space-y-1">
+                        <p className="text-xs font-semibold text-charcoal-900">
+                          Direct WhatsApp Sharing
+                        </p>
+                        <p className="text-xs text-charcoal-600 leading-relaxed">
+                          Your event details will be formatted and shared directly with Ram on WhatsApp for instant coordination and pricing.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -818,11 +811,12 @@ export const EventPlannerWizard: React.FC<EventPlannerWizardProps> = ({
                     <div className="p-4 flex items-start justify-between">
                       <div className="space-y-1">
                         <span className="text-[10px] uppercase font-bold tracking-wider text-charcoal-400">
-                          Contact Details
+                          Contact & WhatsApp
                         </span>
                         <p className="text-sm font-semibold text-charcoal-900">{fullName}</p>
-                        <p className="text-xs text-charcoal-600">
-                          {phone} · Preferred via {contactPreference}
+                        <p className="text-xs text-charcoal-600 flex items-center space-x-1.5 mt-0.5">
+                          <MessageCircle className="w-3.5 h-3.5 text-[#128C7E]" />
+                          <span>{phone} · Share via WhatsApp</span>
                         </p>
                       </div>
                       <button
@@ -903,7 +897,7 @@ export const EventPlannerWizard: React.FC<EventPlannerWizardProps> = ({
                   className="flex-1 sm:flex-initial px-6 sm:px-7 py-3 rounded-full bg-[#128C7E] hover:bg-[#075E54] disabled:opacity-50 text-white text-xs sm:text-sm font-semibold shadow-md transition-all active:scale-95 flex items-center justify-center space-x-2"
                 >
                   <MessageCircle className="w-4 h-4 text-white flex-shrink-0" />
-                  <span>{isSubmitting ? 'Preparing...' : 'Send Enquiry via WhatsApp'}</span>
+                  <span>{isSubmitting ? 'Opening WhatsApp...' : 'Share Details via WhatsApp'}</span>
                 </button>
               )}
             </div>

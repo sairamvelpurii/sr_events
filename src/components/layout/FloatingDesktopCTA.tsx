@@ -26,7 +26,7 @@ export const FloatingDesktopCTA: React.FC<FloatingDesktopCTAProps> = ({ onOpenWi
       <button
         onClick={onOpenWizard}
         className="group flex items-center space-x-3 bg-charcoal-900/90 hover:bg-charcoal-900 backdrop-blur-md text-cream-50 pl-4 pr-5 py-3 rounded-full shadow-floating border border-cream-200/20 hover:border-gold/50 transition-all duration-300 hover:scale-105 active:scale-95"
-        aria-label="Plan Your Event with SR Events"
+        aria-label="Plan Your Event with SriRam Events"
       >
         <div className="w-8 h-8 rounded-full bg-gold/20 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-charcoal-900 transition-colors">
           <Calendar className="w-4 h-4" />

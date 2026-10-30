@@ -23,10 +23,10 @@ export const WhySRSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mb-16 space-y-3">
           <p className="text-xs uppercase tracking-widest text-gold-dark font-semibold">
-            THE SR EVENTS PROMISE
+            THE SRIRAM EVENTS PROMISE
           </p>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-medium text-charcoal-900">
-            Why Families & Hosts Choose SR Events
+            Why Families & Hosts Choose SriRam Events
           </h2>
           <p className="text-base text-charcoal-500">
             We focus on transparent communication, punctuality, and calm execution from start to finish.

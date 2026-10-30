@@ -267,7 +267,7 @@ export const AvailabilityCalendar: React.FC<AvailabilityCalendarProps> = ({
                     </div>
                   </div>
                   <span className="text-charcoal-400 text-[11px]">
-                    Updated directly by SR Events coordination team
+                    Updated directly by SriRam Events coordination team
                   </span>
                 </div>
               </>
@@ -275,7 +275,7 @@ export const AvailabilityCalendar: React.FC<AvailabilityCalendarProps> = ({
 
             {/* Subtle Required Availability Disclaimer */}
             <p className="mt-6 text-xs text-charcoal-500 italic bg-cream-100/50 p-3 rounded-lg border border-cream-200">
-              * Availability is subject to change. A date is only confirmed after SR Events confirms your booking with you.
+              * Availability is subject to change. A date is only confirmed after SriRam Events confirms your booking with you.
             </p>
           </div>
 
@@ -324,7 +324,7 @@ export const AvailabilityCalendar: React.FC<AvailabilityCalendarProps> = ({
 
                   <a
                     href={buildWhatsAppLink(
-                      `Hi Ram, I checked ${selectedDateStr} on SR Events website and saw it is available. I'd like to discuss planning our event.`
+                      `Hi Ram, I checked ${selectedDateStr} on SriRam Events website and saw it is available. I'd like to discuss planning our event.`
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -359,7 +359,7 @@ export const AvailabilityCalendar: React.FC<AvailabilityCalendarProps> = ({
 
                     <a
                       href={buildWhatsAppLink(
-                        `Hi Ram, I noticed that ${selectedDateStr} is booked on the SR Events website. Are there nearby dates or alternative arrangements possible?`
+                        `Hi Ram, I noticed that ${selectedDateStr} is booked on the SriRam Events website. Are there nearby dates or alternative arrangements possible?`
                       )}
                       target="_blank"
                       rel="noopener noreferrer"

@@ -18,12 +18,12 @@ export const ReviewsSection: React.FC = () => {
               Host Experiences & Stories
             </h2>
             <p className="text-sm sm:text-base text-charcoal-500 leading-relaxed">
-              Genuine feedback from families across Addanki and nearby regions who trusted Ram and SR Events with their milestone celebrations.
+              Genuine feedback from families across Addanki and nearby regions who trusted Ram and SriRam Events with their milestone celebrations.
             </p>
           </div>
 
           <a
-            href={buildWhatsAppLink("Hi Ram, I would like to share feedback about an event organized by SR Events.")}
+            href={buildWhatsAppLink("Hi Ram, I would like to share feedback about an event organized by SriRam Events.")}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 px-4 py-2.5 rounded-full bg-cream-50 hover:bg-cream-200 border border-cream-300 text-charcoal-800 text-xs font-semibold transition-all self-start md:self-end shadow-xs"
